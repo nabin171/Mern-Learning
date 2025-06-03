@@ -1,0 +1,26 @@
+# Ignore node_modules folders (both client & server)
+node_modules/
+
+# Ignore env files (for secrets)
+.env
+
+# macOS, Windows junk
+.DS_Store
+Thumbs.db
+
+# Build output folders
+build/
+dist/
+
+# Cache (e.g. React/Vite)
+.cache/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Test coverage reports
+coverage/
